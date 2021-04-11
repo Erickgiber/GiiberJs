@@ -32,6 +32,6 @@ Recomiendo copiar las cajas ya prepardas en el codigo HTML5 de GiiberJs.html y c
 
 Para que funcione esta Mini Libreria, solo debes añadir el script y el css Correspondiente a tu HTML5.
 
-Dentro del codigo de la libreria puedes modificar el valor de audio.src, que en este caso esta de la siguiente manera. audio.src = "./mp3/1.mp3".
+Dentro del codigo de la libreria puedes modificar el valor de audio.src, que en este caso se encuentra de la siguiente manera. audio.src = "./mp3/1.mp3";
 
-Puees cambiar el audio.src = "url del archivo", para que funcione, de igual manera esta en el audio.src para que cambie la musica.
+Puees cambiar el audio.src = "url del archivo", para que funcione, de igual manera en el audio.src para que cambie la musica.
