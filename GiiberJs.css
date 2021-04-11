@@ -1,0 +1,95 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.player {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 1fr;
+	user-select: none;
+	height: 30px;
+	background-color: #ededed;
+}
+
+
+input#volumeslider {width: 70px; outline: none;}
+input#seekslider {width: 100px; outline: none; border:}
+/* Skin Default GiiberJs */
+/* Editable Skin */
+#volumeslider,
+#seekslider {
+    -webkit-appearance: none !important;
+    background: #101010;
+    height:7px;
+    border-radius: 0px;
+    padding: 5px;
+}
+
+/* Circle of the Skin */
+#seekslider::-webkit-slider-thumb,
+#volumeslider::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background: #fff;
+    height: 5px;
+    width: 5px;
+    border-radius: 0px;
+}
+
+#playpausebtn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+
+	height: 100%;
+	width: 100px;
+	background-color: #101010;
+	color: #fff;
+	font-family: arial;
+
+	margin-right: 5px;
+	cursor: pointer;
+}
+
+#mutebtn {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #101010;
+	color: #ffffff;
+
+	font-family: arial;
+
+	width: 50px;
+	height: 100%;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+
+#tirbox {
+	display: inline-flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 170px;
+	height: 100%;
+	background-color: #202020;
+	color: #fff;
+	margin: 0 5px;
+}
+
+#change {
+	width: 80px;
+	height: 100%;
+	background-color: #202020;
+	color: #ffffff;
+	margin: 5px;
+
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-family: arial;
+}
