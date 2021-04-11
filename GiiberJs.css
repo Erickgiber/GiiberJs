@@ -92,4 +92,5 @@ input#seekslider {width: 100px; outline: none; border:}
 	justify-content: center;
 	align-items: center;
 	font-family: arial;
+	cursor: pointer;
 }
