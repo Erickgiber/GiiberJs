@@ -1,5 +1,3 @@
 # GiiberJs
 
-## Ignore this!
-
-### ⭐
+### ⭐ Ignore this!
